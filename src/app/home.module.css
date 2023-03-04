@@ -1,0 +1,62 @@
+.main {
+  min-height: 100vh;
+  padding: 2rem 4rem;
+}
+.main button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0;
+}
+.main button svg {
+  width: 16px;
+  height: 16px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header a {
+  text-decoration: none;
+}
+.header svg {
+  width: 16px;
+  height: 16px;
+}
+
+.files {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.files > form {
+  margin-bottom: 0;
+}
+.file-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid #ddd;
+
+  padding: 0 1.6rem;
+  border-radius: 4px;
+  max-width: fit-content;
+}
+.file-item:hover {
+  background-color: #ddd;
+}
+.file-item button {
+  border: none;
+  padding: 0;
+}
+.md-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+.md-container textarea {
+  min-height: 650px;
+}
